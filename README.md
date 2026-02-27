@@ -5,10 +5,20 @@
  * Languages: English | 中文
 -->
 ---
-# Element Hider
+
+## Demo
+
+<div align="center">
+  <video width="800" controls>
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+---
+## Element Hider
 
 [English](#english) · [中文](#中文)
-
 A browser extension that allows you to hide/show DOM elements with right-click context menu or interactive selection.
 
 一款浏览器扩展，支持通过右键菜单或交互式选择来隐藏/显示 DOM 元素。
