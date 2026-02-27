@@ -9,10 +9,7 @@
 ## Demo
 
 <div align="center">
-  <video width="800" controls>
-    <source src="video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <img src="demo.gif" alt="Element Hider Demo" width="800">
 </div>
 
 ---
