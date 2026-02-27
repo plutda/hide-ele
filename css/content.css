@@ -1,0 +1,9 @@
+/* Element Hider - Content Styles */
+
+/* Mark hidden elements with a subtle outline for debugging (optional) */
+/* Uncomment below to enable visual debugging */
+/*
+ *[data-element-hider-hidden="true"] {
+ *  outline: 2px dashed red !important;
+ *}
+ */

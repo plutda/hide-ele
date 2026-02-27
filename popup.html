@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Element Hider</title>
+  <link rel="stylesheet" href="css/popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 data-i18n="settings">Settings</h1>
+    </header>
+
+    <section class="language-section">
+      <label data-i18n="language">Language</label>
+      <select id="language-select">
+        <option value="en">English</option>
+        <option value="zh_CN">中文</option>
+      </select>
+    </section>
+
+    <section class="selector-section">
+      <button id="select-element-btn" class="btn-primary" data-i18n="select_element">
+        Select Element to Hide
+      </button>
+      <p class="selector-hint" data-i18n="select_hint">
+        Click this button, then hover and click on any element in the page to hide it.
+      </p>
+    </section>
+
+    <section class="rules-section">
+      <div class="rules-header">
+        <h2 data-i18n="rules">Hidden Elements Rules</h2>
+        <button id="clear-all-btn" class="btn-danger" data-i18n="clear_all">Clear All</button>
+      </div>
+      <div id="rules-list" class="rules-list">
+        <!-- Rules will be dynamically inserted here -->
+      </div>
+      <p id="no-rules" class="no-rules" data-i18n="no_rules">No hidden elements yet</p>
+    </section>
+  </div>
+
+  <script src="js/popup.js"></script>
+</body>
+</html>
